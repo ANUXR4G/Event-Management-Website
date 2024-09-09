@@ -1,0 +1,65 @@
+:root {
+  font-size: 1.1vw;
+  --primary-font: "Poppins", sans-serif;
+  --font-size-heading-1: 6rem;
+  --font-size-heading-2: 3rem;
+  --font-size-1: 2rem;
+  --font-size-2: 1.5rem;
+  --font-size-3: 1rem;
+  --font-size-4: 0.8rem;
+  --font-size-5: 0.5rem;
+  --primary-font-color-1: #f8f9ff;
+  --secondary-font-color-1: #13111d;
+}
+
+.button_active,
+.button_inactive {
+  height: fit-content;
+  width: fit-content;
+  border-radius: 20px;
+  border: 0px;
+  padding: 10px 20px 10px 20px;
+  background: var(--color-1);
+  font-family: var(--primary-font);
+  font-style: normal;
+  font-weight: 500;
+  text-align: justify;
+  font-size: var(--font-size-3);
+  color: var(--primary-font-color-1);
+  cursor: pointer;
+}
+
+.button_inactive {
+  border: 2px solid #F8F9FF;
+  padding: 8px 20px 8px 20px;
+  background: transparent;
+}
+
+@media only screen and (max-device-width: 760px) {
+  :root {
+    font-size: 2vw;
+  }
+}
+
+@media only screen and (max-device-width: 420px) {
+  :root {
+    font-size: 3vw;
+    text-align: center;
+  }
+}
+
+body[data-theme="event-theme"] {
+  --color-1: #fe2185;
+  --color-2: #ff7433;
+  --color-3: #553df2;
+  --color-4: #16b4f2;
+  --color-5: #DEDBEF;
+}
+
+body[data-theme="wedding-theme"] {
+  --color-1: #a60321;
+  --color-2: #ffa500;
+  --color-3: #d90416;
+  --color-4: #590219;
+  --color-5: #FFEAEA;
+}

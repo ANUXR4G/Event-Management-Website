@@ -1,0 +1,16 @@
+.Events-main-container{
+    height: fit-content;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    /* background: #6b5a41; */
+    /* margin-top: 8vh; */
+    /* gap: 2vh; */
+
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 3vw;
+}

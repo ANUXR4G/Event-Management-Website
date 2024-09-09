@@ -1,0 +1,62 @@
+.testimonials-main-container{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* flex-direction: column; */
+    /* background: #ef9964; */
+    /* margin-top: 8vh; */
+    /* gap: 2vh; */
+
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 3vw;
+}
+
+.testimonials-left-container{
+    height: 100%;
+    width: 45%;
+    /* background: #000; */
+}
+
+.testimonials-image{
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+
+.testimonials-right-container{
+    height: 100%;
+    width: 45%;
+    /* background: #7d7d7d; */
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    /* gap: 20px; */
+}
+
+.testimonials-subheading-container{
+    height: fit-content;
+    width: 80%;
+    /* background: #d13a3a; */
+    font-family: var(--primary-font);
+    font-style: normal;
+    font-weight: 600;
+    text-align: justify;
+    font-size: var(--font-size-4);
+    color: var(--color-1);
+}
+
+.testimonials-heading-container{
+    height: fit-content;
+    width: 80%;
+    /* background: #da7575; */
+    font-family: var(--primary-font);
+    font-style: normal;
+    font-weight: 600;
+    font-size: var(--font-size-heading-2);
+    color: var(--secondary-font-color-1);
+}
